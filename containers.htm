@@ -13,8 +13,7 @@
 	#quickLinks{
 		background-color:orange;
 		width:100%;
-		height:50px;
-		
+		height:50px;		
 		}
 	#logo{
 		background-color:yellow;
@@ -23,26 +22,27 @@
 		}
 	/*style only the img that is in the div layer"logo"*/
 	#logo img{
-		width:120%;
+		width:100%;
 		}
 	#Navigation{
 		background-color:blue;
 		width:100%;
 		/*height:50px;*/
-		
-		/*#Navigation a{*/
-			width:100%;
+	}	
+	#Navigation a{
+			width:10%;
 			background-color:blue;
 			color:white;
-			Display:inline-block;
-			pading:5px;
-			border-right:1px solid white;
+			display:inline-block;
+			padding:5px;
+			border-right:5px solid white;
+			text-decoration:none;
 			
 		}
 	#login{
-		background-color:red;
+		background-color:gray;
 		width:100%;
-		height:100px;
+		height:25px;
 		}
 		
 		/*main*/
@@ -112,8 +112,7 @@
 		<img src="images/HS495_CONTEMPORARY_02.jpg">
 	</div>	
 	
-	<div id="Navigation"></div>
-	<div id="Navigation a"></div>
+	<div id="Navigation">
 		<a href="http://www.baysidehighschool.org/site_res_view_folder.aspx?id=42bf9055-816a-4a07-908f-9ea9b70851f7">Directory</a>
 		<a href="http://www.baysidehighschool.org/site_res_view_folder.aspx?id=5174edc2-d8de-4b22-b4ee-d2ca6cadac8c">About BHS</a>
 		<a href="http://www.baysidehighschool.org/calendar_month.aspx?id=30f22543-4e12-4655-acad-f46af3d77c6e">Calendar</a>
@@ -122,7 +121,16 @@
 		<a href="http://www.baysidehighschool.org/site_res_view_folder.aspx?id=c434d558-e9bf-424c-b439-34279ed55bed">Parents</a>
 		<a href="http://www.baysidehighschool.org/site_res_view_folder.aspx?id=9e58a4cf-6fa4-41c2-9784-62f283ef7c85">Library</a>
 		<a href="http://www.baysidehighschool.org/site_res_view_folder.aspx?id=277d601c-da04-40ed-8485-ad4a2a5c3ab7">Guidance</a>
-	<div id="login"></div>
+	</div>
+	<div id="login">
+		<form action="">
+			Username: <input type="text" name="user">
+			Password: <input type="password" name="password">
+		</form>
+		<form action="">
+			<input type="button" value="Submit">
+		</form>
+	</div>
 </div>
 <!-- Header:Announcements,social Links,Events,Links, bayside publication, Weather-->
 <div id="main">
